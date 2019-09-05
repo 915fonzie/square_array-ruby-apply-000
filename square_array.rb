@@ -1,7 +1,7 @@
 def square_array(array)
   array.each do |i|
-    j = i*i 
+    i = i*i 
     array.shift
-    array.unshift(j)
+    array.unshift(i)
   end
 end
