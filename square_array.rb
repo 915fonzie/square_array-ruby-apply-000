@@ -1,5 +1,5 @@
 def square_array(array)
   array.each do |i|
-    print i
+    i = i^2
   end
 end
